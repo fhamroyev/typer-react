@@ -12,7 +12,6 @@ export default function Footer({ value, setValue, word, setWord, words, setConfi
         }
     }, [value])
 
-
     useEffect(() => {
         const state = setInterval(() => {
             inTime()
